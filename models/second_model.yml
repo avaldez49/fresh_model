@@ -3,13 +3,4 @@ object_type: model
 label: second_model
 metrics:
   - unique_name: m_factinternetsales_salesamount_sum
-relationships:
-  - unique_name: factinternetsales_orderdatekey_to_date_date Level
-    from:
-      dataset: factinternetsales
-      join_columns:
-        - orderdatekey
-    role_play: Order {0}
-    to:
-      dimension: date
-      level: date Level
+relationships: []
