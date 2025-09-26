@@ -1,0 +1,6 @@
+version: 1
+packages:
+  - version: commit:870b2deb3d5a16a5db2173d9f0409e8681ff859f
+    name: package
+    url: https://github.com/avaldez49/package.git
+    branch: main
