@@ -1,6 +1,6 @@
 version: 1
 unique_name: fresh_model
 object_type: catalog
-label: fresh_model
+label: fresh_model 2
 aggressive_agg_promotion: false
 build_speculative_aggs: true
