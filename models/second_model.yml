@@ -1,6 +1,17 @@
 unique_name: second_model
 object_type: model
 label: second_model
+dimensions: []
 metrics:
   - unique_name: m_factinternetsales_salesamount_sum
-relationships: []
+relationships:
+  - unique_name: >-
+      factinternetsales_customerkey_to_dimcustomer_dimension_dimcustomer_dimension
+      Level
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - customerkey
+    to:
+      dimension: dimcustomer_dimension
+      level: dimcustomer_dimension Level
