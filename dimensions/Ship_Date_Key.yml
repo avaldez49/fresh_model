@@ -1,0 +1,18 @@
+unique_name: Ship_Date_Key
+object_type: dimension
+label: Ship Date Key
+hierarchies:
+  - unique_name: Ship_Date_Key_Hierarchy
+    label: Ship Date Key Hierarchy
+    levels:
+      - unique_name: Ship_Date_Key_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Ship_Date_Key_Level
+    label: Ship Date Key Level
+    contains_unique_names: false
+    dataset: factinternetsales
+    key_columns:
+      - shipdatekey
+    name_column: shipdatekey
+type: standard

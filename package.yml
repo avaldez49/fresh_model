@@ -1,6 +1,6 @@
 version: 1
 packages:
-  - version: commit:3caa4c18cc235f4c5bc1698010247dc79334c5fb
+  - version: commit:ca05b8614c83a3a9fbabefa1630a03491fcb8a3f
     name: package
     url: https://github.com/avaldez49/package.git
     branch: main

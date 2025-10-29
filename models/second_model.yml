@@ -15,3 +15,11 @@ relationships:
     to:
       dimension: dimcustomer_dimension
       level: dimcustomer_dimension Level
+  - unique_name: factinternetsales_orderdatekey_to_Date Dimension_customday
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: Date Dimension
+      level: customday
