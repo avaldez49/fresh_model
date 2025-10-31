@@ -1,6 +1,6 @@
 unique_name: m_factinternetsales_salesamount_sum
 object_type: metric
-label: Sales - Amounts
+label: Sales - Amt
 calculation_method: sum
 column: salesamount
 dataset: factinternetsales
